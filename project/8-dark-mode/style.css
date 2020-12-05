@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background .3s;
+}
+
+body.dark{
+    background-color: #333;
+    color: #eee;
+}
+
+body.dark h1, body.dark p{
+    color: #eee;
+}
+
+.container {
+    max-width: 900px;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+h1 {
+    color: #222;
+    transition: color .3s;
+}
+
+p {
+    font-size: 0.9em;
+    color: #222;
+    transition: color .3s;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 30px;
+    transition: background .5s;
+}
+
+body.dark button{
+    color: white;
+    background-color: lightcoral;
+}
+
+.dark-mode {
+    background-color: #ddd;
+    border: 2px solid rgb(40, 96, 218);
+    border-radius: 25px;
+    width: 46px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9em;
+    position: absolute;
+    top: -30px;
+    right: 5%;
+    transform: all 1s;
+}
+
+.bx {
+    cursor: pointer;
+}
+
+.bxs-sun {
+    color: rgba(219, 154, 13, 0.829);
+}
+
+.bxs-moon {
+    color: #555;
+}
+
+.bxs-circle {
+    color: #fff;
+    font-size: 1.7em;
+    position: absolute;
+    left: -1px;
+    transition: position .5s;
+}
+
+.swipe {
+    position: absolute;
+    right: -20px;
+    transition: right 1s ease-in;
+}

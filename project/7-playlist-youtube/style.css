@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, .4);
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    color: #444;
+}
+
+iframe {
+    margin-bottom: 20px;
+}
+
+.container .card li {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rebeccapurple;
+}
+
+.container .card li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.container .card li:last-child {
+    margin-right: 50px;
+}
+
+input. button {}
+
+input {
+    border: none;
+    padding: 10px 5px;
+}
+
+button {
+    padding: 9px;
+}
+
+p {
+    font-size: 12px;
+}

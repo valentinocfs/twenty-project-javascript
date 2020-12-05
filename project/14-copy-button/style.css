@@ -1,0 +1,33 @@
+.section {
+    background-color: #eee;
+    width: 50%;
+    border-radius: .5em;
+    padding: 1em;
+    position: relative;
+}
+
+.section p {
+    padding-top: 10px;
+}
+
+.section .ph-copy-simple {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.section .ph-copy-simple:active {
+    color: green;
+    transform: translateY(1px);
+}
+
+p {
+    margin: 1rem 0;
+}
+
+input {
+    display: block;
+}

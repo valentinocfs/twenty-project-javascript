@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    color:  #444;
+}
+
+input {
+    display: none;
+}
+
+.input-file {
+    background-color: rgb(230, 53, 200);
+    padding: .6rem 1rem;
+    border-radius: .2rem;
+    color: #eee;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bxs-file {
+    margin-left: 10px;
+}
+
+.container-preview {
+    width: 70vw;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    letter-spacing: 1px;
+}
+
+.container-preview img {
+    display: none;
+    width: 100%;
+}
+
+.container-preview span {
+    font-size: 1.2em;
+    color: #444;
+}

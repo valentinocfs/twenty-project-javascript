@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    color: rebeccapurple;
+    font-size: 17px;
+    margin: 30px auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}
+
+.container {
+    margin: 0 auto;
+    height: 80vh;
+    width: 80vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

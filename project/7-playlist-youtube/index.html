@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Video Playlist</h1>
+        <div class="cards">
+           <div class="card">
+            <iframe width="50%" height="370px" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul>
+                <li onclick="previous()"> < Previous </li>
+                <li onclick="first()">First</li>
+                <li onclick="shuffle()">Shuffle</li>
+                <li onclick="last()">Last</li>
+                <li onclick="next()"> Next > </li>
+            </ul>
+            <input type="text">
+
+            <button onclick="addVideo()">Tambah Video</button>
+            <p>*masukkan link terakhir = 83to4Ti8xD8</p>
+           </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

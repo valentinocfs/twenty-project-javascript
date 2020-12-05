@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    letter-spacing: 1px;
+}
+
+h1,
+form {
+    text-align: center;
+}
+
+h1 span {
+    color: seagreen;
+}
+
+form input,
+button {
+    padding: 10px 15px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+ol {
+    width: 268px;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+li span {
+    position: relative;
+}
+
+li span i {
+    font-size: 1.5em;
+    position: relative;
+    right: -65%;
+    top: 60%;
+}
+
+.strike {
+    text-decoration: line-through;
+}
