@@ -18,7 +18,7 @@
 | 12  | Scroll effect         | Design Course        | [Link](https://youtu.be/Dxm6EwvQIl8) |
 | 13  | Preview image         | dcode                | [Link](https://youtu.be/VElnT8EoEEM) |
 | 14  | Copy button           | dcode                | [Link](https://youtu.be/NHg6jQajaMs) |
-| 15  |                       |                      | [Link]()                             |
+| 15  | Type writting effect  | Dev Ed               | [Link](https://youtu.be/PuOGBacTYAY) |
 | 16  |                       |                      | [Link]()                             |
 | 17  |                       |                      | [Link]()                             |
 | 18  |                       |                      | [Link]()                             |
