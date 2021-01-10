@@ -2,7 +2,7 @@
 
 ### 20 Project Basic Javascript
 
-| NO  | Name                  | Youtube Video        | Link                                      |
+| NO  | Name                  | Youtube Video        | URL                                       |
 | :-: | :-------------------- | :------------------- | ----------------------------------------- |
 |  1  | Modal button          | Florin Pop           | [Link Here](https://youtu.be/XH5OW46yO8I) |
 |  2  | To do list            | Sekolah Koding       | [Link Here](https://youtu.be/De-pksZy6a0) |
@@ -19,8 +19,8 @@
 | 13  | Preview image         | dcode                | [Link Here](https://youtu.be/VElnT8EoEEM) |
 | 14  | Copy button           | dcode                | [Link Here](https://youtu.be/NHg6jQajaMs) |
 | 15  | Type writting effect  | Dev Ed               | [Link Here](https://youtu.be/PuOGBacTYAY) |
-| 16  |                       |                      | [Link Here]()                             |
-| 17  |                       |                      | [Link Here]()                             |
+| 16  | Pokedex               | Florin Pop           | [Link Here](https://youtu.be/XL68br6JyYs) |
+| 17  | Random Joke           | Florin Pop           | [Link Here](https://youtu.be/qMf8KCOwnuc) |
 | 18  |                       |                      | [Link Here]()                             |
 | 19  |                       |                      | [Link Here]()                             |
 | 20  |                       |                      | [Link Here]()                             |
