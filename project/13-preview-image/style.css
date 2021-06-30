@@ -5,8 +5,7 @@ body {
 }
 
 h1 {
-    text-transform: uppercase;
-    color:  #444;
+    color: #444;
 }
 
 input {
@@ -15,8 +14,8 @@ input {
 
 .input-file {
     background-color: rgb(230, 53, 200);
-    padding: .6rem 1rem;
-    border-radius: .2rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.2rem;
     color: #eee;
     font-weight: 600;
     cursor: pointer;

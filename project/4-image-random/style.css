@@ -5,12 +5,14 @@ body {
 }
 
 button {
-    color: rebeccapurple;
-    font-size: 17px;
+    color: rgb(247, 243, 250);
+    background-color: rgb(57, 92, 232);
+    border-radius: 15px;
     margin: 30px auto;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 button:active {
@@ -19,10 +21,25 @@ button:active {
 }
 
 .container {
-    margin: 0 auto;
-    height: 80vh;
-    width: 80vw;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 20px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 749px) {
+    .container {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .container {
+        width: 250px;
+        height: 250px;
+    }
 }

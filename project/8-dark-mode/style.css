@@ -10,52 +10,53 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background .3s;
+    transition: background 0.3s;
 }
 
-body.dark{
+body.dark {
     background-color: #333;
     color: #eee;
 }
 
-body.dark h1, body.dark p{
+body.dark h1,
+body.dark p {
     color: #eee;
 }
 
 .container {
     max-width: 900px;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 30px;
     position: relative;
 }
 
 h1 {
     color: #222;
-    transition: color .3s;
+    transition: color 0.3s;
 }
 
 p {
     font-size: 0.9em;
     color: #222;
-    transition: color .3s;
+    transition: color 0.3s;
 }
 
 button {
-    border: none;
+    border: 3px solid lightcoral;
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 30px;
-    transition: background .5s;
+    transition: background 0.5s;
 }
 
-body.dark button{
+body.dark button {
     color: white;
     background-color: lightcoral;
 }
 
 .dark-mode {
-    background-color: #ddd;
-    border: 2px solid rgb(40, 96, 218);
+    background-color: rgb(240, 240, 240);
+    border: 5px solid rgb(40, 96, 218);
     border-radius: 25px;
     width: 46px;
     height: 25px;
@@ -67,6 +68,10 @@ body.dark button{
     top: -30px;
     right: 5%;
     transform: all 1s;
+}
+
+body.dark .dark-mode {
+    border: 5px solid lightcoral;
 }
 
 .bx {
@@ -82,11 +87,16 @@ body.dark button{
 }
 
 .bxs-circle {
-    color: #fff;
+    color: #333;
     font-size: 1.7em;
     position: absolute;
-    left: -1px;
-    transition: position .5s;
+    left: -2px;
+    top: -3px;
+    transition: position 0.5s;
+}
+
+body.dark .bxs-circle {
+    color: #fff;
 }
 
 .swipe {

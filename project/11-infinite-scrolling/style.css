@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 body {
     margin: 0;
@@ -16,12 +15,20 @@ body {
 }
 
 .header {
-    text-align: center;
     color: #333;
 }
 
 h1 {
     text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+h1 span {
+    color: rgb(24, 127, 237);
+}
+
+h3 {
+    color: rgb(40, 40, 40);
 }
 
 .cards {
@@ -29,10 +36,15 @@ h1 {
 }
 
 .card {
-    background-color: #eee;
+    background-color: rgb(242, 242, 242);
     padding: 10px 30px;
     font-size: 1.1em;
+    border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.card p {
+    color: rgb(126, 126, 126);
 }
 
 .card-btn {
@@ -40,6 +52,15 @@ h1 {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.card-btn .bx {
+    color: rgb(130, 130, 130);
+}
+
+.card-btn .bx:hover {
+    color: rgb(24, 127, 237);
 }
 
 .loading {
@@ -50,7 +71,7 @@ h1 {
     opacity: 0;
 }
 
-.loading.show{
+.loading.show {
     opacity: 1;
 }
 
@@ -60,28 +81,29 @@ h1 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    animation: jump .7s ease infinite;
+    animation: jump 0.7s ease infinite;
 }
 
-.loading span:not(:last-child){
+.loading span:not(:last-child) {
     margin-right: 10px;
 }
 
-.circle:nth-of-type(1){
+.circle:nth-of-type(1) {
     animation-delay: 0.2s;
 }
 
-.circle:nth-of-type(2){
+.circle:nth-of-type(2) {
     animation-delay: 0.4s;
 }
-.circle:nth-of-type(3){
+.circle:nth-of-type(3) {
     animation-delay: 0.6s;
 }
 
 @keyframes jump {
     0% {
         transform: translateY(-1px);
-    } 100% {
+    }
+    100% {
         transform: translateY(10px);
     }
 }

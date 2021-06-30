@@ -1,42 +1,48 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #4a69bd;
+    background-color: #0d0b1e;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     letter-spacing: 2px;
 }
 
 h1 {
+    color: rgb(242, 242, 242);
     text-transform: uppercase;
 }
 
 h1 span {
-    color: #b71540;
+    color: #8923d2;
 }
 
 .container {
-    background-color: #82ccdd;
-    color: #222;
-    width: max(40%, 15rem);
+    background-color: #3e3ef0;
+    color: rgb(211, 211, 211);
+    width: 75%;
+    max-width: 700px;
     height: 40vh;
     padding: 20px;
+    margin: 30px 0;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container p {
     margin-top: 100px;
+    text-transform: uppercase;
     font-size: 20px;
     padding: 0 10px;
 }
 
 button {
+    background: #3e3ef0;
+    color: rgb(242, 242, 242);
     margin-top: 20px;
     padding: 10px 40px;
     letter-spacing: 1px;

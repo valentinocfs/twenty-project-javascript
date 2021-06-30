@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: rgb(137, 97, 215);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -7,39 +7,40 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     position: relative;
 }
 
-.text {
-    background-color: #ddd;
+.box {
+    color: rgb(50, 50, 50);
+    background-color: rgb(234, 234, 234);
     border-radius: 10px;
     text-align: center;
     width: 90%;
     padding: 10px;
+    box-shadow: 1px 1px 30px rgba(220, 220, 220, 0.3);
 }
 
 button {
     cursor: pointer;
     background-color: rebeccapurple;
-    letter-spacing: 2px;
-    font-size: 16px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     color: #eee;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    border: rebeccapurple;
     margin: 10px 0;
+    transition: 0.5s;
 }
 
-button:active{
-    position: relative;
-    top: 2px;
-
+button:hover {
+    color: rgb(50, 50, 50);
+    border: #000;
+    background-color: rgb(223, 221, 221);
 }
 
 .container {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +49,7 @@ button:active{
     position: absolute;
     left: 0;
     display: none;
-    animation: display .3s forwards;
+    animation: display 0.3s forwards;
 }
 
 .container-modal {
@@ -58,7 +59,7 @@ button:active{
     padding: 20px 30px;
     margin: 0 auto;
     border-radius: 5px;
-    margin-top: 14%;
+    margin-top: 3%;
 }
 
 @keyframes display {
@@ -68,8 +69,4 @@ button:active{
     to {
         opacity: 1;
     }
-}
-
-.container-modal h2 {
-    text-transform: uppercase;
 }

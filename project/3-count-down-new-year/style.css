@@ -1,35 +1,35 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-self: center;
-    font-family: sans-serif;
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background-color: rgb(189, 44, 44);
 }
 
 .container {
-    background-color: #ddd;
-    width: 80%;
+    background-color: rgb(228, 73, 73);
+    width: 600px;
     margin: 30px auto;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1), 
-                1px  1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1), 1px 1px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 20px;
 }
 
-h1, h2 {
-    color: rebeccapurple;
+h1,
+h2 {
+    color: rgb(237, 243, 244);
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 3px rgba(255,255,255, 0.7);
 }
 
 h2 {
     margin: 0;
     font-size: 130px;
 }
-
 
 .countdown {
     display: flex;
@@ -39,22 +39,22 @@ h2 {
 
 .countdown div {
     background-color: #eee;
-    color: #444;
+    color: rgb(31, 28, 28);
     width: 20%;
-    height: 150px;
+    min-width: 100px;
+    height: 130px;
     margin: 50px 10px;
+    padding-top: 20px;
     border-radius: 10px;
     position: relative;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
-    font-size: 80px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .countdown div::before {
-    content: '';
-    background-color: rebeccapurple;
+    content: "";
+    background-color: rgb(189, 44, 44);
     position: absolute;
     width: 100%;
     height: 50px;
@@ -66,29 +66,43 @@ h2 {
 }
 
 div#day::before {
-    content: 'day';
+    content: "day";
     color: #eee;
     line-height: 50px;
     text-transform: uppercase;
 }
 
 div#hour::before {
-    content: 'hour';
+    content: "hour";
     color: #eee;
     line-height: 50px;
     text-transform: uppercase;
 }
 
 div#minute::before {
-    content: 'minute';
+    content: "minute";
     color: #eee;
     line-height: 50px;
     text-transform: uppercase;
 }
 
 div#second::before {
-    content: 'second';
+    content: "second";
     color: #eee;
     line-height: 50px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 749px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    .countdown {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

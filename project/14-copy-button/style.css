@@ -1,13 +1,27 @@
+h1 {
+    text-align: center;
+    color: rgb(24, 24, 24);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .section {
-    background-color: #eee;
+    margin-right: 50px;
+    margin: 0 auto;
+    background-color: rgb(255, 212, 104);
+    color: rgb(60, 60, 60);
     width: 50%;
-    border-radius: .5em;
+    min-width: 400px;
+    border-radius: 0.5em;
     padding: 1em;
     position: relative;
 }
 
 .section p {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .section .ph-copy-simple {
@@ -16,18 +30,35 @@
     right: 15px;
     font-size: 1.1rem;
     cursor: pointer;
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
 
-.section .ph-copy-simple:active {
-    color: green;
+.section .ph-copy-simple:hover {
+    color: rgb(239, 239, 239);
     transform: translateY(1px);
 }
 
-p {
-    margin: 1rem 0;
+.message {
+    text-align: center;
+}
+
+.message p {
+    margin: 20px 0;
 }
 
 input {
+    margin: 0 auto;
+    margin-top: 20px;
     display: block;
+    border: none;
+    background-color: rgb(196, 68, 48);
+    color: rgb(239, 239, 239);
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input:hover {
+    background-color: rgb(184, 101, 89);
 }

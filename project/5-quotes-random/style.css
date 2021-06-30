@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
 }
 
 .container {
@@ -14,14 +15,18 @@ body {
 
 h1 {
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 button {
+    background-color: rgb(57, 92, 232);
+    color: rgb(237, 237, 237);
     border: none;
     font-size: 16px;
+    border-radius: 10px;
     padding: 10px 50px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-top: 30px;
     cursor: pointer;
 }
 
@@ -31,8 +36,8 @@ button:active {
 }
 
 .home {
-    background-image: url('https://images.unsplash.com/photo-1489846986031-7cea03ab8fd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80');
-    height: 60vh;
+    background-image: url("https://images.unsplash.com/photo-1507275016429-544fc0875edd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80");
+    height: 40vh;
     width: 60%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -40,15 +45,24 @@ button:active {
     border-radius: 3px;
 }
 
-
 .home p {
     color: #eee;
     font-size: 20px;
     text-transform: uppercase;
-    text-shadow: 1px 1px black;
+    font-weight: 500;
     text-align: center;
-    margin: 100px 50px 0 50px;
+    margin: 70px 50px 0 50px;
     line-height: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 749px) {
+    .container {
+        justify-content: flex-start;
+    }
+
+    .home {
+        width: 80%;
+    }
 }

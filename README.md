@@ -2,7 +2,7 @@
 
 ## 20 Project Basic Javascript
 
-| NO  | Name                  | Youtube Video        | URL                                       |
+| No  | Name                  | Youtube Video        | URL                                       |
 | :-: | :-------------------- | :------------------- | ----------------------------------------- |
 |  1  | Modal button          | Florin Pop           | [Link Here](https://youtu.be/XH5OW46yO8I) |
 |  2  | To do list            | Sekolah Koding       | [Link Here](https://youtu.be/De-pksZy6a0) |
@@ -22,10 +22,10 @@
 
 ### Project With API
 
-| NO  | Name        | Youtube Video | URL                                       | API                                                                    | Auth   |
-| :-: | :---------- | :------------ | ----------------------------------------- | ---------------------------------------------------------------------- | ------ |
-| 16  | Pokedex     | Florin Pop    | [Link Here](https://youtu.be/XL68br6JyYs) | [Here](https://pokeapi.co)                                             | No     |
-| 17  | Random Joke | Florin Pop    | [Link Here](https://youtu.be/qMf8KCOwnuc) | [Here](https://icanhazdadjoke.com/)                                    | No     |
-| 18  | Movies API  | -             | -                                         | [Here](http://www.omdbapi.com/)                                        | apiKey |
-| 19  | Recipes API | -             | -                                         | [Here](https://github.com/tomorisakura/unofficial-masakapahariini-api) | No     |
-| 20  |             |               |                                           |                                                                        |        |
+| No  | Name        | Youtube Video | URL                                       | API                                                                    | Auth |
+| :-: | :---------- | :------------ | ----------------------------------------- | ---------------------------------------------------------------------- | ---- |
+| 16  | Pokedex     | Florin Pop    | [Link Here](https://youtu.be/XL68br6JyYs) | [Here](https://pokeapi.co)                                             | No   |
+| 17  | Random Joke | Florin Pop    | [Link Here](https://youtu.be/qMf8KCOwnuc) | [Here](https://icanhazdadjoke.com/)                                    | No   |
+| 18  | Recipes API | -             | -                                         | [Here](https://github.com/tomorisakura/unofficial-masakapahariini-api) | No   |
+| 19  |             |               |                                           |                                                                        |      |
+| 20  |             |               |                                           |                                                                        |      |

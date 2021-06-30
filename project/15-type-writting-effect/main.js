@@ -1,5 +1,5 @@
 const typing = document.querySelector(".typing");
-const texts = ["Valentino", "Frontend Developer", "Fullstack JS"];
+const texts = ["Valentino Stania", "Frontend Developer", "Backend Developer"];
 
 let [count, index] = [0, 0];
 let curr = "";

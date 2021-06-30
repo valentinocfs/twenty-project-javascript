@@ -1,27 +1,48 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee;
-    letter-spacing: 1px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background-color: rgb(239, 168, 93);
+    color: rgb(242, 242, 242);
 }
 
-h1,
-form {
+h1 {
     text-align: center;
 }
 
-h1 span {
-    color: seagreen;
+div {
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
-form input,
+input {
+    width: 250px;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
 button {
-    padding: 10px 15px;
+    border: none;
+    color: rgb(242, 242, 242);
+    background-color: rgb(239, 116, 116);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
 }
 
 form button {
@@ -30,32 +51,45 @@ form button {
 
 p {
     text-align: center;
-    font-size: 12px;
 }
 
 ol {
-    width: 268px;
+    list-style: none;
+    width: 350px;
     margin: 20px auto;
-    padding: 10px 30px;
 }
 
 li {
-    margin: 10px 0;
+    color: rgb(24, 24, 24);
+    background-color: rgb(242, 242, 242);
+    padding: 15px 20px;
+    width: 100%;
     cursor: pointer;
-    text-align: left;
-}
-
-li span {
+    border-radius: 10px;
+    position: relative;
+    right: 7%;
+    margin-bottom: 10px;
     position: relative;
 }
 
 li span i {
     font-size: 1.5em;
-    position: relative;
-    right: -65%;
-    top: 60%;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+.todos {
+}
+
+.todolist {
+    text-transform: capitalize;
 }
 
 .strike {
     text-decoration: line-through;
+}
+
+.bx {
+    font-size: 24px;
 }

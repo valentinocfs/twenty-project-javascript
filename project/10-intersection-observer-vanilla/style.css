@@ -1,59 +1,68 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    /* height: 100vh; */
+}
+
+body {
     font-family: sans-serif;
 }
 
 section {
-    height: 100vh;
-    width: 80%;
     margin: 0 auto;
+    width: 100%;
 }
 
-section:nth-of-type(1) {
+.home {
+    height: 100vh;
     background-image: url(./img/img2.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    line-height: 80vh;
     text-align: center;
-    font-size: 5em;
     color: #fff;
 }
 
+.home p {
+    padding-top: 350px;
+    font-size: 60px;
+}
+
 .content {
-    display: grid;
-    grid-template-columns: 60% auto;
-}
-
-.left, .right{
+    height: 500px;
+    max-width: 1140px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
     position: relative;
-    display: grid;
-    text-align: center;
-    place-items: center;
 }
 
+.left,
 .right {
-    place-items: center;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right p {
-    background-color: #ccc;
-    color: #333;
-    font-size: 1.3rem;
+    background-color: #d58e50;
+    color: #fff;
     border-radius: 10px;
     width: 20vw;
     padding: 20px;
 }
 
-h3 {
-    font-size: 2em;
-    color: #333;
+.right h3 {
+    font-size: 32px;
+    color: #e1e1e1;
+    position: absolute;
+    top: 300px;
 }
 
-img {
-    width: 80%;
+.left img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
     height: 300px;
 }
 
@@ -64,8 +73,38 @@ img {
 @keyframes show {
     from {
         transform: translateY(100px);
-    } to {
+    }
+    to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .home p {
+        font-size: 40px;
+    }
+
+    .content {
+        display: block;
+        padding-bottom: 300px;
+        text-align: center;
+    }
+
+    .right h3 {
+        top: 100px;
+        /* left: 60px; */
+    }
+
+    .right p {
+        width: 300px;
+    }
+
+    .left {
+        margin-bottom: 20px;
+    }
+
+    .left img {
+        width: 90%;
     }
 }

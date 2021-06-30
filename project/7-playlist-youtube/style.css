@@ -1,4 +1,5 @@
 body {
+    background-color: #e8c740;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -9,12 +10,12 @@ body {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, .4);
-    max-width: 1170px;
-    width: 90%;
+    background-color: rgb(237, 237, 237);
+    max-width: 900px;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    /* border: 1px solid black; */
+    border-radius: 5px;
 }
 
 h1 {
@@ -22,17 +23,28 @@ h1 {
 }
 
 iframe {
-    margin-bottom: 20px;
+    width: 90%;
+    max-width: 650px;
+    border-radius: 5px;
 }
 
 .container .card li {
     display: inline-block;
-    font-size: 20px;
     cursor: pointer;
 }
 
+ul {
+    margin: 20px 0;
+}
+
+li {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
 li:hover {
-    color: rebeccapurple;
+    color: #e8c740;
 }
 
 .container .card li:not(:last-child) {
@@ -43,17 +55,43 @@ li:hover {
     margin-right: 50px;
 }
 
-input. button {}
+.note {
+    margin: 20px 0;
+    color: rgb(147, 147, 147);
+    font-size: 12px;
+}
 
 input {
     border: none;
-    padding: 10px 5px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(147, 147, 147);
+    color: rgb(237, 237, 237);
+    padding: 10px 15px;
+}
+
+input:focus {
+    outline: none;
 }
 
 button {
-    padding: 9px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e8c740;
+    color: rgb(237, 237, 237);
 }
 
-p {
-    font-size: 12px;
+@media screen and (max-width: 749px) {
+    li {
+        font-size: 12px;
+    }
+
+    .container .card li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .container .card li:last-child {
+        margin-right: 20px;
+    }
 }
