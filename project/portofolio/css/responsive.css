@@ -1,0 +1,209 @@
+@media screen and (min-width:680px){
+    nav ul li a {
+        font-size: 0.8em;
+    }
+    
+   .header-right input {
+       width: 105px;
+   }
+
+   .home .container {
+       padding: 0 30px;
+   }
+
+   .home .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .home .home-left {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .home-right {
+        text-align: right;
+        margin-top: 200px;
+    }
+
+    .home-right img {
+        width: 400px;
+    }
+
+    .about-content {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-image {
+        margin: 18px 0 0 0;
+        padding: 0;
+    }
+
+    .heading {
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+
+    .works {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 430px;
+    }
+
+    .works-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .work-card {
+        width: 50%;
+    }
+
+    .works-wave {
+        top: -450px;
+    }
+
+    .social {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 678px){
+   nav {
+       display: none;
+   }
+
+   .header-menu {
+       display: block;
+   }
+
+   .header-right input {
+       width: 170px;
+   }
+
+   .works .heading {
+       margin-top: 200px;
+   }
+
+   .contact input, textarea {
+       width: 80%;
+   }
+
+   footer .container {
+       display: block;
+       text-align: center;
+       font-size: .8em;
+   }
+
+   .footer-right li {
+        display: none;
+   }
+
+   .social {
+       display: none;
+   }
+}
+
+@media screen and (min-width: 1001px) {
+    .header-right input {
+        width: 300px;
+    }
+
+    .home-left {
+        margin-top: 10px;
+    }
+
+    .home-right {
+        margin-top: 100px;
+    }
+
+    .home-right img {
+        width: 600px;
+    }
+
+    .home-wave {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .about {
+        margin-top: 1px;
+        font-size: 1.2em;
+    }
+
+    .about-image {
+       padding-top: 30px;
+    }
+
+    .about-image img {
+        width: 300px;
+    }
+
+    .home-wave {
+        bottom: -15%;
+     }
+
+    .skill .heading {
+        margin-top: 40px;
+    }
+
+    .works-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .work-card {
+        margin: 5px;
+        width: 25%;
+    }
+
+    .social {
+        position: fixed;
+        left: 0.5%;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+    }
+    
+    .social ul::before {
+        content: "|";
+        color: #555;
+        position: relative;
+        bottom: 20px;
+        height: 30px;
+        width: 2px;
+        text-align: center;
+    }
+    
+    .social ul::after {
+        content: "| ";
+        color: #555;
+        height: 30px;
+        width: 2px;
+    }
+    
+    .social li {
+        margin-bottom: 20px;
+    }
+    
+    .social li a {
+        color: #555;
+        font-size: 1.5em;
+    }
+
+    .social li a:hover {
+        color: #6D66DC;
+    }
+}
