@@ -1,10 +1,10 @@
-# 20 Projects Vanilla Javascript
+# Twenty Projects Vanilla Javascript
 
 20 projects basic using HTML, CSS and Javascript
 
 ### Projects Basic Javascript
 
-| No  | Name                    | Demo Website                                                                                              | Source Code          | URL                                       |
+| No  | Name                    | Demo Website                                                                                              | Source               | URL                                       |
 | :-: | ----------------------- | :-------------------------------------------------------------------------------------------------------: |:-------------------- | ----------------------------------------- |
 |  1  | Modal                   | [Visit](https://valentinocfs.github.io/twenty-project-javascript/project/modal/index.html)                | Florin Pop           | [Link Here](https://youtu.be/XH5OW46yO8I) |
 |  2  | To do list              | [Visit](https://valentinocfs.github.io/twenty-project-javascript/project/to-do-list/index.html)           | Sekolah Koding       | [Link Here](https://youtu.be/De-pksZy6a0) |
@@ -24,7 +24,7 @@
 
 ### Projects With API
 
-| No  | Name                                                                                                    | Source Code   | URL                                       | API                                                                    | Auth |
+| No  | Name                                                                                                    | Source        | URL                                       | API                                                                    | Auth |
 | :-: | :------------------------------------------------------------------------------------------------------ | :------------ | ----------------------------------------- | ---------------------------------------------------------------------- | ---- |
 | 16  | [Pokedex](https://valentinocfs.github.io/twenty-project-javascript/project/pokedex-api/index.html)      | Florin Pop    | [Link Here](https://youtu.be/XL68br6JyYs) | [Here](https://pokeapi.co)                                             | No   |
 | 17  | [Random Joke](https://valentinocfs.github.io/twenty-project-javascript/project/joke-random/index.html)  | Florin Pop    | [Link Here](https://youtu.be/qMf8KCOwnuc) | [Here](https://icanhazdadjoke.com/)                                    | No   |
